@@ -10,7 +10,7 @@ This guide will help you set up the **GeminiFX** files on a Google Gemini Gem.
 ## Step 1: Download the Files
 
 1. Visit the official repository page at: **`https://papadanku.github.io/GeminiFX/`**
-2. Download the repository as a ZIP file by clicking on the **`.zip`** download link (usually located near the code section).
+2. Download the repository as a ZIP file by clicking on the middle **`Download .zip`** button (located at the top of the webpage).
 3. **Extract** the contents of the downloaded ZIP file to a convenient location on your computer.
 
 ## Step 2: Create Your Gemini Gem
@@ -27,7 +27,7 @@ You will now transfer the necessary files into the configuration boxes of your n
 
 1. Locate the **`Instructions.txt`** file within the unpacked `Source` directory.
 2. **Copy** the entire contents of the `Instructions.txt` file.
-3. **Paste** the copied text into the Gem's **"Instructions"** box. This sets the core behavior and rules for the Gem.
+3. **Paste** the copied text into the Gem's **"Instructions"** box. The instructions text sets the core behavior and rules for the Gem.
 
 ### B. Knowledge Files
 
