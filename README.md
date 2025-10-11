@@ -29,15 +29,15 @@ You will now transfer the necessary files and text into the configuration boxes 
 
 1. Locate the **`Description.txt`** file within the unpacked `Source` directory.
 2. **Copy** the entire contents of the `Description.txt` file.
-3. **Paste** the copied text into the Gem's **"Description"** box. [cite_start]This text defines the specialization of the Gem for users.
+3. **Paste** the copied text into the Gem's **"Description"** box. This text defines the specialization of the Gem for users.
 
 ### B. Instructions
 
 1. Locate the **`Instructions.txt`** file within the unpacked `Source` directory.
 2. **Copy** the entire contents of the `Instructions.txt` file.
-3. **Paste** the copied text into the Gem's **"Instructions"** box. [cite_start]The instructions text sets the core behavior and rules for the Gem.
+3. **Paste** the copied text into the Gem's **"Instructions"** box. The instructions text sets the core behavior and rules for the Gem.
 
 ### C. Knowledge Files
 
 1. Find the **`Knowledge`** directory within the unpacked `Source` directory. This folder contains the essential `.fx` files and the `REFERENCE.md`.
-2. **Drag and drop** all the files from the **`Knowledge`** directory (specifically: `Deband.fx`, `LUT.fx`, `REFERENCE.md`, and `ReShade.fxh`) directly into your Gem's **"Knowledge"** box. [cite_start]These files provide the necessary context for the Gem to operate.
+2. **Drag and drop** all the files from the **`Knowledge`** directory (specifically: `Deband.fx`, `LUT.fx`, `REFERENCE.md`, and `ReShade.fxh`) directly into your Gem's **"Knowledge"** box. These files provide the necessary context for the Gem to operate.
