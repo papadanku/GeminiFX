@@ -19,7 +19,7 @@ This guide will help you set up the **GeminiFX** files on a Google Gemini Gem.
 
 1. Go to **Google Gemini** (make sure you are logged in).
 2. Navigate to the gem creation interface. Look for an option like **"Create a Gemini Gem"** or a similar entry point to start customizing a new bot.
-3. **Name Your Gemini Gem**: Give your new Gem a clear and descriptive name (e.g., "GeminiFX Processor").
+3. **Name Your Gemini Gem**: Give your new Gem a clear and descriptive name (e.g., "GeminiFX").
 
 ## Step 3: Add Instructions and Knowledge
 
