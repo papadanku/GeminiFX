@@ -40,4 +40,4 @@ You will now transfer the necessary files and text into the configuration boxes 
 ### C. Knowledge Files
 
 1. Find the **`Knowledge`** directory within the unpacked `Source` directory. This folder contains the essential `.fx` files and the `REFERENCE.md`.
-2. **Drag and drop** all the files from the **`Knowledge`** directory (specifically: `Deband.fx`, `LUT.fx`, `REFERENCE.md`, and `ReShade.fxh`) directly into your Gem's **"Knowledge"** box. These files provide the necessary context for the Gem to operate.
+2. **Drag and drop** all the files from the **`Knowledge`** directory directly into your Gem's **"Knowledge"** box. These files provide the necessary context for the Gem to operate.
