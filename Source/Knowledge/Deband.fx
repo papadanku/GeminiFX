@@ -165,7 +165,7 @@ float3 PS_Deband(float4 vpos : SV_Position, float2 texcoord : TexCoord) : SV_Tar
     float dir  = rand(permute(h)) * 6.2831853;
     float2 o;
     sincos(dir, o.y, o.x);
-    
+
     // Distance calculations
     float2 pt;
     float dist;
@@ -173,10 +173,10 @@ float3 PS_Deband(float4 vpos : SV_Position, float2 texcoord : TexCoord) : SV_Tar
     for (int i = 1; i <= iterations; ++i) {
         dist = rand(h) * range * i;
         pt = dist * BUFFER_PIXEL_SIZE;
-    
+
         h = permute(h);
     }
-    
+
     // Sample at quarter-turn intervals around the source pixel
     float3 ref[4] = {
         tex2Dlod(ReShade::BackBuffer, float4(mad(pt,                  o, texcoord), 0.0, 0.0)).rgb, // SE
@@ -222,21 +222,21 @@ float3 PS_Deband(float4 vpos : SV_Position, float2 texcoord : TexCoord) : SV_Tar
             banding_map = banding_map && sd <= t1 * iterations;
     }
 
-	/*------------------------.
-	| :: Ordered Dithering :: |
-	'------------------------*/
-	//Calculate grid position
-	float grid_position = frac(dot(texcoord, (BUFFER_SCREEN_SIZE * float2(1.0 / 16.0, 10.0 / 36.0)) + 0.25));
+    /*------------------------.
+    | :: Ordered Dithering :: |
+    '------------------------*/
+    //Calculate grid position
+    float grid_position = frac(dot(texcoord, (BUFFER_SCREEN_SIZE * float2(1.0 / 16.0, 10.0 / 36.0)) + 0.25));
 
-	//Calculate how big the shift should be
-	float dither_shift = 0.25 * (1.0 / (pow(2, BUFFER_COLOR_BIT_DEPTH) - 1.0));
+    //Calculate how big the shift should be
+    float dither_shift = 0.25 * (1.0 / (pow(2, BUFFER_COLOR_BIT_DEPTH) - 1.0));
 
-	//Shift the individual colors differently, thus making it even harder to see the dithering pattern
-	float3 dither_shift_RGB = float3(dither_shift, -dither_shift, dither_shift); //subpixel dithering
+    //Shift the individual colors differently, thus making it even harder to see the dithering pattern
+    float3 dither_shift_RGB = float3(dither_shift, -dither_shift, dither_shift); //subpixel dithering
 
-	//modify shift acording to grid position.
-	dither_shift_RGB = lerp(2.0 * dither_shift_RGB, -2.0 * dither_shift_RGB, grid_position); //shift acording to grid position.
-    
+    //modify shift acording to grid position.
+    dither_shift_RGB = lerp(2.0 * dither_shift_RGB, -2.0 * dither_shift_RGB, grid_position); //shift acording to grid position.
+
     return banding_map ? output + dither_shift_RGB : ori;
 }
 
