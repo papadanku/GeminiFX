@@ -217,15 +217,19 @@ Global variables with the `uniform` qualifier are constant across each iteration
 * ``uniform float frametime < source = "frametime"; >;``
 
     Time in milliseconds it took for the last frame to complete.
+
 * ``uniform int framecount < source = "framecount"; >;``
 
     Total amount of frames since the game started.
+
 * ``uniform float4 date < source = "date"; >;``
 
     float4(year, month (1 - 12), day of month (1 - 31), time in seconds)
+
 * ``uniform float timer < source = "timer"; >;``
 
     Timer counting time in milliseconds since game start.
+
 * ``uniform float2 pingpong < source = "pingpong"; min = 0; max = 10; step = 2; smoothing = 0.0; >;``
 
     Value that smoothly interpolates between `min` and `max` using `step` as the increase/decrease value every second (so a step value of 1 means the value is increased/decreased by 1 per second).
