@@ -11,17 +11,17 @@ Extend AI CLI tools with the **reshadefx-coder** skill. Agent skills provide spe
 
 Copy the `skills/reshadefx-coder` folder to your CLI's search path:
 
-> Example: `./.agents/skills/reshadefx-coder`
-
-**Gemini CLI**
-
-- Global Path: `~/.gemini/skills/`
-- Local Path: `./.agents/skills/`
+> Example: `./.claude/skills/reshadefx-coder`
 
 **Claude Code**
 
 - Global Path: `~/.claude/skills/`
 - Local Path: `./.claude/skills/`
+
+**Gemini CLI**
+
+- Global Path: `~/.gemini/skills/` or `~/.agents/skills/`
+- Local Path: `./.gemini/skills/` or `./.agents/skills/`
 
 **Mistral Vibe**
 
