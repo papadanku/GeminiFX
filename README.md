@@ -14,21 +14,17 @@ Copy the `skills/reshadefx-coder` folder to your CLI's search path:
 **Gemini CLI**
 
 - Global Path: `~/.gemini/skills/`
-- Local Path: `./.agents/skills/` 
+- Local Path: `./.agents/skills/`
 
 **Claude Code**
 
 - Global Path: `~/.claude/skills/`
-- Local Path: `./.claude/skills/` 
+- Local Path: `./.claude/skills/`
 
 **Mistral Vibe**
 
 - Global Path: `~/.vibe/skills/`
-- Local Path: `./.vibe/skills/` 
-
-> Recommendation: Symlink the `skills/` directory to your project root for project-specific use.
-
----
+- Local Path: `./.vibe/skills/`
 
 ## Chatbot Experts (`./rag`)
 
