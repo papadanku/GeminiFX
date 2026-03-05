@@ -26,7 +26,7 @@ Copy the `skills/reshadefx-coder` folder to your CLI's search path:
 - Global Path: `~/.vibe/skills/`
 - Local Path: `./.vibe/skills/`
 
-**Example Output**:
+**Example Output**
 
     ./.claude/skills/reshadefx-coder
 
