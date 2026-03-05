@@ -3,7 +3,7 @@
 
 ShaderCells provides resources for writing, debugging, and optimizing ReShadeFX (HLSL) shaders. This repository includes a specialized AI agent skill and a comprehensive Retrieval-Augmented Generation (RAG) knowledge base.
 
-## Agent Skills (`./skills`)
+## Agent Skills (./skills)
 
 Extend AI CLI tools with the **reshadefx-coder** skill. Agent skills provide specialized capabilities that allow AI models to execute code, search files, and perform complex tasks autonomously. Learn more at the [Anthropic Agent Skills](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) site.
 
@@ -26,11 +26,11 @@ Copy the `skills/reshadefx-coder` folder to your CLI's search path:
 - Global Path: `~/.vibe/skills/`
 - Local Path: `./.vibe/skills/`
 
-**Example Output**
+**Example Path**:
 
     ./.claude/skills/reshadefx-coder
 
-## Chatbot Experts (`./rag`)
+## Chatbot Experts (./rag)
 
 Turn popular chatbot applications into ReShadeFX experts using the provided RAG files. Retrieval-Augmented Generation (RAG) connects AI models to specific data sources, ensuring responses are accurate and grounded in the provided technical documentation.
 
