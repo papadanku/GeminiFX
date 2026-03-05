@@ -11,7 +11,7 @@ Extend AI CLI tools with the **reshadefx-coder** skill. Agent skills provide spe
 
 Copy the `skills/reshadefx-coder` folder to your CLI's search path:
 
-> Example: `./.claude/skills/reshadefx-coder`
+> Example Output: `./.claude/skills/reshadefx-coder`
 
 **Claude Code**
 
