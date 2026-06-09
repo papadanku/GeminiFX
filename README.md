@@ -13,18 +13,31 @@ Copy the `skills/reshadefx-coder` folder to your CLI's search path:
 
 **Claude Code**
 
-- Global Path: `~/.claude/skills/`
-- Local Path: `./.claude/skills/`
+> https://claude.com/product/claude-code
 
-**Gemini CLI**
+- Global Path (All Workspaces): `~/.claude/skills/`
+- Workspace-Specific Path: `./.claude/skills/`
 
-- Global Path: `~/.gemini/skills/` or `~/.agents/skills/`
-- Local Path: `./.gemini/skills/` or `./.agents/skills/`
+**Google Antigravity**
+
+> https://antigravity.google/
+
+- Global Path (All Workspaces): `~/.gemini/config/skills/<skill-folder>/`
+- Workspace-Specific Path: `<workspace-root>/.agents/skills/<skill-folder>/`
+
+**opencode**
+
+> https://opencode.ai/
+
+- Global Path (All Workspaces): `~/.config/opencode/skills/<name>/SKILL.md`
+- Workspace-Specific Path: `.opencode/skills/<name>/SKILL.md`
 
 **Mistral Vibe**
 
-- Global Path: `~/.vibe/skills/`
-- Local Path: `./.vibe/skills/`
+> https://mistral.ai/products/vibe/
+
+- Global Path (All Workspaces): `~/.vibe/skills/`
+- Workspace-Specific Path: `./.vibe/skills/`
 
 **Example Path**:
 
