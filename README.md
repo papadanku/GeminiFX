@@ -58,8 +58,8 @@ Turn popular chatbot applications into ReShadeFX experts using the provided RAG 
 
 1. Open [Gemini](https://gemini.google.com/app) and log in.
 2. Select **Gems** > **New Gem**.
-3. Paste `rag/Description.txt` into **Description**.
-4. Paste `rag/Instructions.txt` into **Instructions**.
+3. Paste `rag/description.txt` into **Description**.
+4. Paste `rag/instructions.txt` into **Instructions**.
 5. Upload all files from `rag/knowledge/` to the **Knowledge** box.
 
 #### Mistral AI (Le Chat)
@@ -68,18 +68,18 @@ Turn popular chatbot applications into ReShadeFX experts using the provided RAG 
 2. Open the **Intelligence** tab and select **Libraries**.
 3. Click **New Library**, name it "Shader Knowledge," and upload all files from `rag/knowledge/`.
 4. Open the **Agents** tab and select **Create an agent**.
-5. Paste `rag/Description.txt` into **Purpose** and `rag/Instructions.txt` into **Instructions**.
+5. Paste `rag/description.txt` into **Purpose** and `rag/instructions.txt` into **Instructions**.
 6. Open the **Knowledge** tab and checkmark the "Shader Knowledge" library.
 
 #### AnythingLLM (Local)
 
 1. Open AnythingLLM and create a workspace named "ReShadeFX".
 2. Click the **Upload** icon, add all files from `rag/knowledge/`, and select **Move to Workspace**.
-3. Open **Chat Settings** > **System Prompt** and paste `rag/Instructions.txt`.
+3. Open **Chat Settings** > **System Prompt** and paste `rag/instructions.txt`.
 
 #### GPT4All (Local)
 
 1. Open GPT4All and navigate to **Settings** > **LocalDocs**.
 2. Add `rag/knowledge/` to the indexed folders.
 3. In **Settings** > **Model**, clone your preferred model.
-4. Paste `rag/Instructions.txt` into the **System Message** field.
+4. Paste `rag/instructions.txt` into the **System Message** field.
